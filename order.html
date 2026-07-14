@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orders</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+table{
+    width:90%;
+    margin:30px auto;
+    border-collapse:collapse;
+    background:#fff;
+}
+th,td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+th{
+    background:#232f3e;
+    color:#fff;
+}
+tr:hover{
+    background:#f5f5f5;
+}
+.status{
+    color:green;
+    font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Orders</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="shop.html">Shop</a>
+<a href="cart.html">Cart</a>
+<a href="checkout.html">Checkout</a>
+<a href="orders.html">Orders</a>
+<a href="admin.html">Admin</a>
+</nav>
+
+</header>
+
+<table>
+
+<tr>
+<th>Order ID</th>
+<th>Customer</th>
+<th>Product</th>
+<th>Amount</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>#1001</td>
+<td>Zakia Sarker</td>
+<td>Smart Watch</td>
+<td>$120</td>
+<td class="status">Delivered</td>
+</tr>
+
+<tr>
+<td>#1002</td>
+<td>John Doe</td>
+<td>Wireless Headphones</td>
+<td>$99</td>
+<td>Pending</td>
+</tr>
+
+<tr>
+<td>#1003</td>
+<td>Sarah</td>
+<td>Laptop</td>
+<td>$899</td>
+<td class="status">Paid</td>
+</tr>
+
+</table>
+
+<footer>
+<p>© 2026 My E-Commerce Store</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
