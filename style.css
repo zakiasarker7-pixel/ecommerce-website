@@ -150,8 +150,7 @@ footer{
     object-fit:cover;
     display:block;
     border-radius:10px;
-}
-.checkout{
+}.checkout{
     max-width:800px;
     margin:30px auto;
     padding:20px;
