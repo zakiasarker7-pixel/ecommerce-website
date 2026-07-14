@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Checkout</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <header>
+
 <h1>Checkout</h1>
 
 <nav>
@@ -17,17 +22,17 @@
 <a href="shop.html">Shop</a>
 <a href="cart.html">Cart</a>
 <a href="checkout.html">Checkout</a>
-<a href="login.html">Login</a>
 <a href="admin.html">Admin</a>
 </nav>
 
 </header>
 
-<section class="product">
 
-<section class="product">
+<section class="checkout">
 
-<h2>Checkout</h2>
+<h2>Order Checkout</h2>
+
+<div class="order-box">
 
 <h3>Order Summary</h3>
 
@@ -38,18 +43,23 @@
 
 <h3>Total: $219</h3>
 
-<h2>Billing Details</h2>
+</div>
+
+
+<div class="form-box">
+
+<h3>Customer Information</h3>
 
 <form>
 
-<input type="text" placeholder="Full Name" required><br><br>
+<input type="text" placeholder="Full Name" required>
 
-<input type="email" placeholder="Email Address" required><br><br>
+<input type="email" placeholder="Email" required>
 
-<input type="text" placeholder="Phone Number" required><br><br>
+<input type="text" placeholder="Phone Number" required>
 
-<textarea placeholder="Shipping Address" rows="4"></textarea>
-<br><br>
+<textarea placeholder="Delivery Address"></textarea>
+
 
 <h3>Payment Method</h3>
 
@@ -57,11 +67,9 @@
 <option>Cash on Delivery</option>
 <option>bKash</option>
 <option>Nagad</option>
-<option>Credit Card</option>
-<option>Debit Card</option>
+<option>Card Payment</option>
 </select>
 
-<br><br>
 
 <button type="submit">
 Place Order
@@ -69,22 +77,15 @@ Place Order
 
 </form>
 
-</section>
-</select>
-
-<br><br>
-
-<button type="submit">Place Order</button>
-
-</form>
+</div>
 
 </section>
+
 
 <footer>
 <p>© 2026 My E-Commerce Store</p>
 </footer>
 
-<script src="script.js"></script>
 
 </body>
 </html>
